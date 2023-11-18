@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-export default function Home() {
+export default function DynamicRouting() {
   return (
     <div>
           Hello World from Panaverse DAO!

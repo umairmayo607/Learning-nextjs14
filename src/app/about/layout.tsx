@@ -7,17 +7,7 @@ import Link from "next/link";
     return(
         <div className="display-flex">
             
-            <ul>
-              <li><Link href={"/"}>Home</Link>
-              </li>
-            </ul>
-
-           
-            <ul>
-                <li>
-                <Link href={"/login/student-login"}>Student Login</Link>
-                </li>
-            </ul>
+          <nav>My NavBar for About page</nav>
         </div>
     )
 }

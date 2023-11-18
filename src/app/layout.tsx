@@ -16,7 +16,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+       <li className='p-5 flex space-x-5 bg-orange-300'>
+        <ol> About</ol>
+        <ol>login</ol>
+        <ol>Merry</ol>
+        <ol>Ummii</ol>
+       </li>
+       
+        {children}</body>
     </html>
   )
 }
