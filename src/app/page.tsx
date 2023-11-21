@@ -31,18 +31,22 @@ export default function Home() {
       <a className="bg-orange-200" href="/props">
         Go to Props Page
       </a>
+      <br />
+      <a className="bg-orange-200" href="/conditionalRendring">
+        Go to Conditional Rendring
+      </a>
+      <br />
+      <a className="bg-orange-200" href="/react">
+        Go to React Page
+      </a>
       <p>
-        Contrary to popular belief, Lorem Ipsum is not simply random text. It
-        has roots in a piece of classical Latin literature . Richard McClintock,
-        a Latin professor at Hampden-Sydney College in Virginia, looked up one
-        of the more obscure Latin words, consectetur, from a Lorem Ipsum
-        passage, and going through the cites of the word in classical
-        literature, discovered the undoubtable source. Lorem Ipsum comes from
-        sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum"{" "}
+        College in Virginia, looked up one of the more obscure Latin words,
+        consectetur, from a Lorem Ipsum passage, and going through the cites of
+        the word in classical literature, discovered the undoubtable source.
+        Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
+        Bonorum et Malorum"{" "}
         <a className="underline decoration-sky-800">Umair Mayo</a> by Cicero,
-        written in 45 BC. This book is a treatise on the theory of ethics, very
-        popular during the Renaissance. The first line of Lorem Ipsum, "Lorem
-        ipsum dolor sit amet..", comes from a line in section 1.10.32.
+        written in 45 BC.
       </p>
       <Image src={office} alt="Office_Photo" className="ml-5 rounded-full  " />
       <Image src={shadi} alt="Office_Photo" className="ml-5 rounded-full  " />
